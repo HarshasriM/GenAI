@@ -1,0 +1,14 @@
+import requests
+
+def get_response(conversational_id, query):
+    url = "http://localhost:8000/query"
+    payload = {
+        "conversational_id": conversational_id,
+        "query": query
+    }
+    try:
+        response = requests.post(url, json=payload)
+        response.raise_for_status()
+        return response.json()
+    except requests.exceptions.RequestException as e:
+        return None
