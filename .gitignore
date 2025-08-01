@@ -1,0 +1,15 @@
+venv/
+Harshasri_M_assignment1/.env
+Harshasri_M_assignment2/.env
+Harshasri_M_assignment3/.env
+Harshasri_M_assignment3/genai.pdf
+Harshasri_M_assignment4/backend/.env
+Harshasri_M_assignment4/history_files
+Harshasri_M_assignment4/backend/__pycache__
+Harshasri_M_assignment4/__pycache__
+Harshasri_M_assignment4/frontend/__pycache__
+Harshasri_M_assignment5/history_files
+Harshasri_M_assignment5/backend/__pycache__
+Harshasri_M_assignment5/__pycache__
+Harshasri_M_assignment5/frontend/__pycache__
+Readme.md/
